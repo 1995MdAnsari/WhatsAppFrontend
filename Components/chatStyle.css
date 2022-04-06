@@ -1,0 +1,79 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 3;
+} */
+
+.chatSection{
+    background-color: #ededed;
+    margin-right: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+
+
+/* User information */
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    bottom: 0;
+    background-color:#ededed;
+    height: 60px;
+}
+
+.names{
+    padding: 20px;
+}
+
+/* Message box */
+
+.chatSection{
+    background-image: url('../img/whatsBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;  
+    /* position: relative;   */
+}
+.message{
+    float: right;
+    bottom: 0;
+
+    /* position: relative; */
+    /* position: absolute; */
+}
+
+/* Chat section bottom */
+.chatInput{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    bottom: 0;
+    background-color:#ededed;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+}
+
+.icon img{
+    width: 20px;
+    height: 20px;
+    color: #ededed;
+}
+.msgInput{ 
+    width: 100%;
+}
+
+input{
+    background-color: white;
+    border: none;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+}
+
